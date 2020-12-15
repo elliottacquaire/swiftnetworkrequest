@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB9375225888765006463E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9375125888765006463E4 /* AppDelegate.swift */; };
+		4FB9375425888765006463E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9375325888765006463E4 /* SceneDelegate.swift */; };
+		4FB9375625888765006463E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9375525888765006463E4 /* ContentView.swift */; };
+		4FB9375825888767006463E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB9375725888767006463E4 /* Assets.xcassets */; };
+		4FB9375B25888767006463E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB9375A25888767006463E4 /* Preview Assets.xcassets */; };
+		4FB9375E25888767006463E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB9375C25888767006463E4 /* LaunchScreen.storyboard */; };
+		4FB9376925888767006463E4 /* NetworkTeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9376825888767006463E4 /* NetworkTeTests.swift */; };
+		4FB9377425888767006463E4 /* NetworkTeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9377325888767006463E4 /* NetworkTeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FB9376525888767006463E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FB9374625888765006463E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FB9374D25888765006463E4;
+			remoteInfo = NetworkTe;
+		};
+		4FB9377025888767006463E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FB9374625888765006463E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FB9374D25888765006463E4;
+			remoteInfo = NetworkTe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FB9374E25888765006463E4 /* NetworkTe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkTe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB9375125888765006463E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FB9375325888765006463E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4FB9375525888765006463E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FB9375725888767006463E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FB9375A25888767006463E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FB9375D25888767006463E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FB9375F25888767006463E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB9376425888767006463E4 /* NetworkTeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB9376825888767006463E4 /* NetworkTeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTeTests.swift; sourceTree = "<group>"; };
+		4FB9376A25888767006463E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB9376F25888767006463E4 /* NetworkTeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB9377325888767006463E4 /* NetworkTeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTeUITests.swift; sourceTree = "<group>"; };
+		4FB9377525888767006463E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FB9374B25888765006463E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB9376125888767006463E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB9376C25888767006463E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FB9374525888765006463E4 = {
+			isa = PBXGroup;
+			children = (
+				4FB9375025888765006463E4 /* NetworkTe */,
+				4FB9376725888767006463E4 /* NetworkTeTests */,
+				4FB9377225888767006463E4 /* NetworkTeUITests */,
+				4FB9374F25888765006463E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FB9374F25888765006463E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9374E25888765006463E4 /* NetworkTe.app */,
+				4FB9376425888767006463E4 /* NetworkTeTests.xctest */,
+				4FB9376F25888767006463E4 /* NetworkTeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FB9375025888765006463E4 /* NetworkTe */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9375125888765006463E4 /* AppDelegate.swift */,
+				4FB9375325888765006463E4 /* SceneDelegate.swift */,
+				4FB9375525888765006463E4 /* ContentView.swift */,
+				4FB9375725888767006463E4 /* Assets.xcassets */,
+				4FB9375C25888767006463E4 /* LaunchScreen.storyboard */,
+				4FB9375F25888767006463E4 /* Info.plist */,
+				4FB9375925888767006463E4 /* Preview Content */,
+			);
+			path = NetworkTe;
+			sourceTree = "<group>";
+		};
+		4FB9375925888767006463E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9375A25888767006463E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FB9376725888767006463E4 /* NetworkTeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9376825888767006463E4 /* NetworkTeTests.swift */,
+				4FB9376A25888767006463E4 /* Info.plist */,
+			);
+			path = NetworkTeTests;
+			sourceTree = "<group>";
+		};
+		4FB9377225888767006463E4 /* NetworkTeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9377325888767006463E4 /* NetworkTeUITests.swift */,
+				4FB9377525888767006463E4 /* Info.plist */,
+			);
+			path = NetworkTeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FB9374D25888765006463E4 /* NetworkTe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB9377825888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTe" */;
+			buildPhases = (
+				4FB9374A25888765006463E4 /* Sources */,
+				4FB9374B25888765006463E4 /* Frameworks */,
+				4FB9374C25888765006463E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkTe;
+			productName = NetworkTe;
+			productReference = 4FB9374E25888765006463E4 /* NetworkTe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FB9376325888767006463E4 /* NetworkTeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB9377B25888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTeTests" */;
+			buildPhases = (
+				4FB9376025888767006463E4 /* Sources */,
+				4FB9376125888767006463E4 /* Frameworks */,
+				4FB9376225888767006463E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB9376625888767006463E4 /* PBXTargetDependency */,
+			);
+			name = NetworkTeTests;
+			productName = NetworkTeTests;
+			productReference = 4FB9376425888767006463E4 /* NetworkTeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FB9376E25888767006463E4 /* NetworkTeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB9377E25888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTeUITests" */;
+			buildPhases = (
+				4FB9376B25888767006463E4 /* Sources */,
+				4FB9376C25888767006463E4 /* Frameworks */,
+				4FB9376D25888767006463E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB9377125888767006463E4 /* PBXTargetDependency */,
+			);
+			name = NetworkTeUITests;
+			productName = NetworkTeUITests;
+			productReference = 4FB9376F25888767006463E4 /* NetworkTeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FB9374625888765006463E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = ElliottTest;
+				TargetAttributes = {
+					4FB9374D25888765006463E4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					4FB9376325888767006463E4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 4FB9374D25888765006463E4;
+					};
+					4FB9376E25888767006463E4 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 4FB9374D25888765006463E4;
+					};
+				};
+			};
+			buildConfigurationList = 4FB9374925888765006463E4 /* Build configuration list for PBXProject "NetworkTe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FB9374525888765006463E4;
+			productRefGroup = 4FB9374F25888765006463E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FB9374D25888765006463E4 /* NetworkTe */,
+				4FB9376325888767006463E4 /* NetworkTeTests */,
+				4FB9376E25888767006463E4 /* NetworkTeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FB9374C25888765006463E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB9375E25888767006463E4 /* LaunchScreen.storyboard in Resources */,
+				4FB9375B25888767006463E4 /* Preview Assets.xcassets in Resources */,
+				4FB9375825888767006463E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB9376225888767006463E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB9376D25888767006463E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FB9374A25888765006463E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB9375225888765006463E4 /* AppDelegate.swift in Sources */,
+				4FB9375425888765006463E4 /* SceneDelegate.swift in Sources */,
+				4FB9375625888765006463E4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB9376025888767006463E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB9376925888767006463E4 /* NetworkTeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB9376B25888767006463E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB9377425888767006463E4 /* NetworkTeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FB9376625888767006463E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FB9374D25888765006463E4 /* NetworkTe */;
+			targetProxy = 4FB9376525888767006463E4 /* PBXContainerItemProxy */;
+		};
+		4FB9377125888767006463E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FB9374D25888765006463E4 /* NetworkTe */;
+			targetProxy = 4FB9377025888767006463E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FB9375C25888767006463E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FB9375D25888767006463E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FB9377625888767006463E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FB9377725888767006463E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FB9377925888767006463E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkTe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NetworkTe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosTest.NetworkTe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FB9377A25888767006463E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkTe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NetworkTe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosTest.NetworkTe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FB9377C25888767006463E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetworkTeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosTest.NetworkTeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkTe.app/NetworkTe";
+			};
+			name = Debug;
+		};
+		4FB9377D25888767006463E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetworkTeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosTest.NetworkTeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkTe.app/NetworkTe";
+			};
+			name = Release;
+		};
+		4FB9377F25888767006463E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetworkTeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosTest.NetworkTeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkTe;
+			};
+			name = Debug;
+		};
+		4FB9378025888767006463E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetworkTeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosTest.NetworkTeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkTe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FB9374925888765006463E4 /* Build configuration list for PBXProject "NetworkTe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB9377625888767006463E4 /* Debug */,
+				4FB9377725888767006463E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB9377825888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB9377925888767006463E4 /* Debug */,
+				4FB9377A25888767006463E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB9377B25888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB9377C25888767006463E4 /* Debug */,
+				4FB9377D25888767006463E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB9377E25888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FB9377F25888767006463E4 /* Debug */,
+				4FB9378025888767006463E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FB9374625888765006463E4 /* Project object */;
+}
