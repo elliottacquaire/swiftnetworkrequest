@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,25 @@
 		4FB9375E25888767006463E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB9375C25888767006463E4 /* LaunchScreen.storyboard */; };
 		4FB9376925888767006463E4 /* NetworkTeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9376825888767006463E4 /* NetworkTeTests.swift */; };
 		4FB9377425888767006463E4 /* NetworkTeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9377325888767006463E4 /* NetworkTeUITests.swift */; };
+		4FB937822588C70D006463E4 /* DataT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB937812588C70D006463E4 /* DataT.swift */; };
+		4FB937842589DCF5006463E4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB937832589DCF5006463E4 /* Network.swift */; };
+		4FB937862589E6A9006463E4 /* RequestAlertPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB937852589E6A9006463E4 /* RequestAlertPlugin.swift */; };
+		4FB937882589FB99006463E4 /* TokenS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB937872589FB99006463E4 /* TokenS.swift */; };
+		4FB9378A258A01C0006463E4 /* YShareApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB93789258A01C0006463E4 /* YShareApiProvider.swift */; };
+		4FB9378C258A030A006463E4 /* RequestLoadingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9378B258A030A006463E4 /* RequestLoadingPlugin.swift */; };
+		4FB9378E258A134A006463E4 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9378D258A134A006463E4 /* MusicData.swift */; };
+		4FB93790258A1614006463E4 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9378F258A1614006463E4 /* LandmarkRow.swift */; };
+		4FB93792258A16E5006463E4 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB93791258A16E5006463E4 /* LandmarkList.swift */; };
+		4FB93794258A176C006463E4 /* MusicLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB93793258A176C006463E4 /* MusicLoadManager.swift */; };
+		4FB93796258B3161006463E4 /* MusicDataStrc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB93795258B3161006463E4 /* MusicDataStrc.swift */; };
+		4FB93798258B4AEC006463E4 /* LandmarkRowMu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB93797258B4AEC006463E4 /* LandmarkRowMu.swift */; };
+		4FB9379B258B5E86006463E4 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9379A258B5E86006463E4 /* BaseResponse.swift */; };
+		4FB9379D258C57BE006463E4 /* MusicModelHandJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9379C258C57BE006463E4 /* MusicModelHandJ.swift */; };
+		4FB9379F258C7DF7006463E4 /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9379E258C7DF7006463E4 /* NetRequest.swift */; };
+		4FB937A1258C7ED7006463E4 /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB937A0258C7ED7006463E4 /* LoginProvider.swift */; };
+		59CB498460A8065B3D71C548 /* Pods_NetworkTeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F847D6197D93B97A32F28A90 /* Pods_NetworkTeTests.framework */; };
+		97B0E57DD34D48EF6023ECA7 /* Pods_NetworkTe_NetworkTeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D78FF662C2CB80EBB9D29D /* Pods_NetworkTe_NetworkTeUITests.framework */; };
+		998D886A20F4AB90AEB8AD3F /* Pods_NetworkTe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F23F0C643F7893DDE3DE57 /* Pods_NetworkTe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BE0E8942CB81FDC506EC24 /* Pods-NetworkTeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTeTests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkTeTests/Pods-NetworkTeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26B8661EE8DF4EF29ECF06D6 /* Pods-NetworkTeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTeTests.release.xcconfig"; path = "Target Support Files/Pods-NetworkTeTests/Pods-NetworkTeTests.release.xcconfig"; sourceTree = "<group>"; };
+		36F23F0C643F7893DDE3DE57 /* Pods_NetworkTe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkTe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EE78E8B336F8184973B6F6 /* Pods-NetworkTe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTe.release.xcconfig"; path = "Target Support Files/Pods-NetworkTe/Pods-NetworkTe.release.xcconfig"; sourceTree = "<group>"; };
 		4FB9374E25888765006463E4 /* NetworkTe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkTe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB9375125888765006463E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FB9375325888765006463E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +72,27 @@
 		4FB9376F25888767006463E4 /* NetworkTeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB9377325888767006463E4 /* NetworkTeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTeUITests.swift; sourceTree = "<group>"; };
 		4FB9377525888767006463E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB937812588C70D006463E4 /* DataT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataT.swift; sourceTree = "<group>"; };
+		4FB937832589DCF5006463E4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4FB937852589E6A9006463E4 /* RequestAlertPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAlertPlugin.swift; sourceTree = "<group>"; };
+		4FB937872589FB99006463E4 /* TokenS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenS.swift; sourceTree = "<group>"; };
+		4FB93789258A01C0006463E4 /* YShareApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YShareApiProvider.swift; sourceTree = "<group>"; };
+		4FB9378B258A030A006463E4 /* RequestLoadingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLoadingPlugin.swift; sourceTree = "<group>"; };
+		4FB9378D258A134A006463E4 /* MusicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
+		4FB9378F258A1614006463E4 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		4FB93791258A16E5006463E4 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		4FB93793258A176C006463E4 /* MusicLoadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLoadManager.swift; sourceTree = "<group>"; };
+		4FB93795258B3161006463E4 /* MusicDataStrc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDataStrc.swift; sourceTree = "<group>"; };
+		4FB93797258B4AEC006463E4 /* LandmarkRowMu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRowMu.swift; sourceTree = "<group>"; };
+		4FB9379A258B5E86006463E4 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		4FB9379C258C57BE006463E4 /* MusicModelHandJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModelHandJ.swift; sourceTree = "<group>"; };
+		4FB9379E258C7DF7006463E4 /* NetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetRequest.swift; sourceTree = "<group>"; };
+		4FB937A0258C7ED7006463E4 /* LoginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
+		8C0937B0CBEE31D5A9A89889 /* Pods-NetworkTe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTe.debug.xcconfig"; path = "Target Support Files/Pods-NetworkTe/Pods-NetworkTe.debug.xcconfig"; sourceTree = "<group>"; };
+		A32962491120D2B1A884D792 /* Pods-NetworkTe-NetworkTeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTe-NetworkTeUITests.release.xcconfig"; path = "Target Support Files/Pods-NetworkTe-NetworkTeUITests/Pods-NetworkTe-NetworkTeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4F64378757D11F500822261 /* Pods-NetworkTe-NetworkTeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTe-NetworkTeUITests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkTe-NetworkTeUITests/Pods-NetworkTe-NetworkTeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F847D6197D93B97A32F28A90 /* Pods_NetworkTeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkTeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D78FF662C2CB80EBB9D29D /* Pods_NetworkTe_NetworkTeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkTe_NetworkTeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998D886A20F4AB90AEB8AD3F /* Pods_NetworkTe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59CB498460A8065B3D71C548 /* Pods_NetworkTeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B0E57DD34D48EF6023ECA7 /* Pods_NetworkTe_NetworkTeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +130,8 @@
 				4FB9376725888767006463E4 /* NetworkTeTests */,
 				4FB9377225888767006463E4 /* NetworkTeUITests */,
 				4FB9374F25888765006463E4 /* Products */,
+				DA2E5FF31D9F9667F2C68E09 /* Pods */,
+				83741C4CB98318CB2404BBC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +148,7 @@
 		4FB9375025888765006463E4 /* NetworkTe */ = {
 			isa = PBXGroup;
 			children = (
+				4FB93799258B5E77006463E4 /* base */,
 				4FB9375125888765006463E4 /* AppDelegate.swift */,
 				4FB9375325888765006463E4 /* SceneDelegate.swift */,
 				4FB9375525888765006463E4 /* ContentView.swift */,
@@ -106,6 +156,20 @@
 				4FB9375C25888767006463E4 /* LaunchScreen.storyboard */,
 				4FB9375F25888767006463E4 /* Info.plist */,
 				4FB9375925888767006463E4 /* Preview Content */,
+				4FB937812588C70D006463E4 /* DataT.swift */,
+				4FB937832589DCF5006463E4 /* Network.swift */,
+				4FB937852589E6A9006463E4 /* RequestAlertPlugin.swift */,
+				4FB937872589FB99006463E4 /* TokenS.swift */,
+				4FB93789258A01C0006463E4 /* YShareApiProvider.swift */,
+				4FB9378B258A030A006463E4 /* RequestLoadingPlugin.swift */,
+				4FB9378D258A134A006463E4 /* MusicData.swift */,
+				4FB9378F258A1614006463E4 /* LandmarkRow.swift */,
+				4FB93791258A16E5006463E4 /* LandmarkList.swift */,
+				4FB93793258A176C006463E4 /* MusicLoadManager.swift */,
+				4FB93795258B3161006463E4 /* MusicDataStrc.swift */,
+				4FB93797258B4AEC006463E4 /* LandmarkRowMu.swift */,
+				4FB9379E258C7DF7006463E4 /* NetRequest.swift */,
+				4FB937A0258C7ED7006463E4 /* LoginProvider.swift */,
 			);
 			path = NetworkTe;
 			sourceTree = "<group>";
@@ -136,6 +200,38 @@
 			path = NetworkTeUITests;
 			sourceTree = "<group>";
 		};
+		4FB93799258B5E77006463E4 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				4FB9379A258B5E86006463E4 /* BaseResponse.swift */,
+				4FB9379C258C57BE006463E4 /* MusicModelHandJ.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		83741C4CB98318CB2404BBC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36F23F0C643F7893DDE3DE57 /* Pods_NetworkTe.framework */,
+				F9D78FF662C2CB80EBB9D29D /* Pods_NetworkTe_NetworkTeUITests.framework */,
+				F847D6197D93B97A32F28A90 /* Pods_NetworkTeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA2E5FF31D9F9667F2C68E09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C0937B0CBEE31D5A9A89889 /* Pods-NetworkTe.debug.xcconfig */,
+				43EE78E8B336F8184973B6F6 /* Pods-NetworkTe.release.xcconfig */,
+				F4F64378757D11F500822261 /* Pods-NetworkTe-NetworkTeUITests.debug.xcconfig */,
+				A32962491120D2B1A884D792 /* Pods-NetworkTe-NetworkTeUITests.release.xcconfig */,
+				03BE0E8942CB81FDC506EC24 /* Pods-NetworkTeTests.debug.xcconfig */,
+				26B8661EE8DF4EF29ECF06D6 /* Pods-NetworkTeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB9377825888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTe" */;
 			buildPhases = (
+				BA2D4E368BE6B1743A381121 /* [CP] Check Pods Manifest.lock */,
 				4FB9374A25888765006463E4 /* Sources */,
 				4FB9374B25888765006463E4 /* Frameworks */,
 				4FB9374C25888765006463E4 /* Resources */,
+				ADB7E9213BF01A88CCC212F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB9377B25888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTeTests" */;
 			buildPhases = (
+				B99744F428AFA7CF54F7B807 /* [CP] Check Pods Manifest.lock */,
 				4FB9376025888767006463E4 /* Sources */,
 				4FB9376125888767006463E4 /* Frameworks */,
 				4FB9376225888767006463E4 /* Resources */,
@@ -178,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FB9377E25888767006463E4 /* Build configuration list for PBXNativeTarget "NetworkTeUITests" */;
 			buildPhases = (
+				D93B78384845404B22126398 /* [CP] Check Pods Manifest.lock */,
 				4FB9376B25888767006463E4 /* Sources */,
 				4FB9376C25888767006463E4 /* Frameworks */,
 				4FB9376D25888767006463E4 /* Resources */,
+				CDD57A107CDB0940DD570536 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,14 +363,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADB7E9213BF01A88CCC212F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkTe/Pods-NetworkTe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkTe/Pods-NetworkTe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetworkTe/Pods-NetworkTe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B99744F428AFA7CF54F7B807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkTeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2D4E368BE6B1743A381121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkTe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD57A107CDB0940DD570536 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkTe-NetworkTeUITests/Pods-NetworkTe-NetworkTeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkTe-NetworkTeUITests/Pods-NetworkTe-NetworkTeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetworkTe-NetworkTeUITests/Pods-NetworkTe-NetworkTeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93B78384845404B22126398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkTe-NetworkTeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FB9374A25888765006463E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB937A1258C7ED7006463E4 /* LoginProvider.swift in Sources */,
+				4FB937882589FB99006463E4 /* TokenS.swift in Sources */,
+				4FB9378C258A030A006463E4 /* RequestLoadingPlugin.swift in Sources */,
+				4FB9379D258C57BE006463E4 /* MusicModelHandJ.swift in Sources */,
+				4FB937842589DCF5006463E4 /* Network.swift in Sources */,
+				4FB937822588C70D006463E4 /* DataT.swift in Sources */,
+				4FB9378A258A01C0006463E4 /* YShareApiProvider.swift in Sources */,
+				4FB93796258B3161006463E4 /* MusicDataStrc.swift in Sources */,
+				4FB9378E258A134A006463E4 /* MusicData.swift in Sources */,
+				4FB9379B258B5E86006463E4 /* BaseResponse.swift in Sources */,
 				4FB9375225888765006463E4 /* AppDelegate.swift in Sources */,
+				4FB93792258A16E5006463E4 /* LandmarkList.swift in Sources */,
 				4FB9375425888765006463E4 /* SceneDelegate.swift in Sources */,
+				4FB93790258A1614006463E4 /* LandmarkRow.swift in Sources */,
+				4FB93794258A176C006463E4 /* MusicLoadManager.swift in Sources */,
 				4FB9375625888765006463E4 /* ContentView.swift in Sources */,
+				4FB937862589E6A9006463E4 /* RequestAlertPlugin.swift in Sources */,
+				4FB93798258B4AEC006463E4 /* LandmarkRowMu.swift in Sources */,
+				4FB9379F258C7DF7006463E4 /* NetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +652,7 @@
 		};
 		4FB9377925888767006463E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0937B0CBEE31D5A9A89889 /* Pods-NetworkTe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +672,7 @@
 		};
 		4FB9377A25888767006463E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EE78E8B336F8184973B6F6 /* Pods-NetworkTe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +692,7 @@
 		};
 		4FB9377C25888767006463E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BE0E8942CB81FDC506EC24 /* Pods-NetworkTeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +714,7 @@
 		};
 		4FB9377D25888767006463E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B8661EE8DF4EF29ECF06D6 /* Pods-NetworkTeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +736,7 @@
 		};
 		4FB9377F25888767006463E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F64378757D11F500822261 /* Pods-NetworkTe-NetworkTeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +756,7 @@
 		};
 		4FB9378025888767006463E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32962491120D2B1A884D792 /* Pods-NetworkTe-NetworkTeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

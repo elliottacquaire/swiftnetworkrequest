@@ -1,0 +1,6 @@
+framework module Pods_NetworkTe_NetworkTeUITests {
+  umbrella header "Pods-NetworkTe-NetworkTeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
